@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    background:linear-gradient(90deg,rgb(97, 2, 2),#f36d6d);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    padding: 1.5rem;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+    .imgLogo{
+        height: 51px;
+        width: 166px;
+        margin: 0;
+    }
+    .navBar{
+        gap: 8px;
+        display:flex;
+        justify-items:space-around;
+        align-items: center;
+    
+    }
+    
+    .navBar a{
+        padding: 3px;
+        text-decoration: none;
+        color: rgb(223, 26, 26);
+        font-weight: bold;
+        transition-duration: 0.5s;
+        
+    }
+    .navBar a:hover{
+        color: white;
+        background: rgb(223, 26, 26);
+        border-radius: 5px;
+        transition-duration: .5s;
+    }
+}
+
+.ContactForm{
+    margin-top: 125px;
+    border: red solid 5px;
+    border-radius: 8px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 500px;
+    margin-left: 500px;
+
+    #form0{
+        
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #form0 label{
+        box-sizing: border-box;
+        padding: 5px 0px;
+        color: #ffffff;
+    }
+
+    #form0 input[type="text"] , input[type="email"]{
+        border-radius: 8px;
+        background-color: rgb(226, 148, 148);
+    }
+
+    #Comentarios{
+        resize: vertical;
+    }
+
+    #btnSubmit{
+        box-sizing: border-box;
+        margin-top: 15px;
+        width: fit-content;
+        outline: none;
+        border: 1;
+        border-radius: 8px;
+        background-color: rgb(177, 177, 177);
+        align-self: center;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    #btnSubmit:hover{
+        background-color: red;
+        color: #fff;
+        font-weight: bold;
+        cursor:pointer;
+    }
+
+    
+}
+
+footer{
+    background-color: #000000;
+    padding: 50px 0 50px 0;
+    
+    #ContactContainer{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        
+        #RedesSociales{
+            
+        }
+        #RedesSociales div{
+            background: linear-gradient(45deg,#000000,#ffffff);
+            width: 100%;
+            height: 0.125rem;
+            border-radius: 1.25rem;
+            margin: auto;
+        }
+        #RedesSociales h6{
+            color: #fff;
+            font-size: medium;
+            font-weight: lighter;
+            margin-bottom: 8px;
+        }
+        #RedesSociales nav{
+            margin-top: 5px;
+        }
+        #RedesSociales a{
+            display: block;
+            text-decoration: none;
+            padding:0;
+            width: fit-content;
+        }
+
+        #Telefono{
+            color: #fff;
+        }
+        #Telefono h6{
+            text-align: center;
+            font-size: medium;
+            font-weight: lighter;
+            margin-bottom: 8px;
+        }
+        #Telefono div{
+            background: linear-gradient(45deg,#000000,#ffffff);
+            width: 100%;
+            height: 0.125rem;
+            border-radius: 1.25rem;
+            margin: auto;
+        }
+
+
+        #Ubicacion{
+            color: #fff;
+        }
+        #Ubicacion h6{
+            text-align: center;
+            font-size: medium;
+            font-weight: lighter;
+            margin-bottom: 8px;
+        }
+        #Ubicacion div{
+            background: linear-gradient(45deg,#000000,#ffffff);
+            width: 100%;
+            height: 0.125rem;
+            border-radius: 1.25rem;
+            margin: auto;
+        }
+    }
+    
+    .Watermark{
+        box-sizing: border-box;
+        color: #fff;
+        opacity: .7;
+        text-align: center;
+    }
+}
